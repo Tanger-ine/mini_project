@@ -12,6 +12,6 @@ setup(
     description='A utility library for file operations',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/Tanger-ine/mini_project/tree/main/fileutils',
+    url='https://github.com/Tanger-ine/mini_project/tree/main/pandas_appendunits',
     license='MIT',
 )

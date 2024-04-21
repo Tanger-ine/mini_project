@@ -77,7 +77,7 @@ Here's an example of how to use the functions:
 
 ```python
 
-import fileutils as fu
+import pdappendunits as pdap
 
 directory = "/path/to/your/directory"
 file_names = ["file1.csv", "file2.csv"]  # List of file names
@@ -89,7 +89,7 @@ extension = ".csv"  # File extension
 
 ```python
 
-file_paths = fu.files_in_names(directory, file_names)
+file_paths = pdap.files_in_names(directory, file_names)
 
 ```
 
@@ -97,7 +97,7 @@ file_paths = fu.files_in_names(directory, file_names)
 
 ```python
 
-file_paths_with_extension = fu.files_in_extension(directory, extension)
+file_paths_with_extension = pdap.files_in_extension(directory, extension)
 
 ```
 
@@ -105,7 +105,7 @@ file_paths_with_extension = fu.files_in_extension(directory, extension)
 
 ```python
 
-data = fu.merge_files(file_paths_with_extension)
+data = pdap.merge_files(file_paths_with_extension)
 
 print(data)
 
