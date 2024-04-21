@@ -7,11 +7,11 @@ setup(
     install_requires=[
         'pandas',
     ],
-    author='Your Name',
-    author_email='your@email.com',
+    author='Tanger-ine',
+    author_email='parak2065@gmail.com',
     description='A utility library for file operations',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/fileutils',
+    url='https://github.com/Tanger-ine/mini_project/tree/main/fileutils',
     license='MIT',
 )

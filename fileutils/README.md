@@ -75,18 +75,38 @@ def merge_files(file_paths):
 
 Here's an example of how to use the functions:
 
+```python
+
 import fileutils as fu
 
 directory = "/path/to/your/directory"
 file_names = ["file1.csv", "file2.csv"]  # List of file names
 extension = ".csv"  # File extension
 
+```
+
 # Get paths of files with specific names
+
+```python
+
 file_paths = fu.files_in_names(directory, file_names)
 
+```
+
 # Get paths of files with specific extension
+
+```python
+
 file_paths_with_extension = fu.files_in_extension(directory, extension)
 
+```
+
 # Merge files into a single DataFrame
+
+```python
+
 data = fu.merge_files(file_paths_with_extension)
+
 print(data)
+
+```
