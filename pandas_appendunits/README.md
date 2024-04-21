@@ -1,12 +1,12 @@
-# FileUtils
+# pandas_appendunits
 
-FileUtils is a Python package for performing file operations easily. It provides functions to manipulate files such as getting paths of files with specific names or extensions in a directory, and merging multiple files into a single DataFrame.
+pandas_appendunits is a Python package for performing file operations easily. It provides functions to manipulate files such as getting paths of files with specific names or extensions in a directory, and merging multiple files into a single DataFrame.
 
 ## Installation
 
 You can install FileUtils using pip:
 
-pip install fileutils
+pip install pdappendunits
 
 ## Functions
 

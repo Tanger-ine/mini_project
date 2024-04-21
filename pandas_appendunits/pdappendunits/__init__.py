@@ -1,4 +1,4 @@
-# fileutils/__init__.py
+# pdappendunits/__init__.py
 
 # Importing modules
 from . import directory
